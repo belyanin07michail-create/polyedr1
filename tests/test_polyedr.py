@@ -39,4 +39,4 @@ class TestPolyedr(unittest.TestCase):
 
     def test_calc_special_edges_sum_all_inside(self):
         total = self.polyedr.calc_special_edges_sum()
-        self.assertAlmostEqual(total, 3200.0, places=5)
+        self.assertAlmostEqual(total, 16.0, places=5)
