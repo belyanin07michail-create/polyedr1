@@ -168,7 +168,7 @@ class Polyedr:
         for e in self.edges:
             if is_not_good(e.beg) and is_not_good(e.fin):
                 total_length += e.beg.distance(e.fin)
-                
+
         # Делим на коэффициент гомотетии, чтобы убрать его влияние на длину
         return total_length / self.c
 
